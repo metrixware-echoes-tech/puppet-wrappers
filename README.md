@@ -2,17 +2,39 @@
 
 [![Build Status](https://travis-ci.org/echoes-tech/puppet-wrappers.svg?branch=master)]
 (https://travis-ci.org/echoes-tech/puppet-wrappers)
+[![Flattr Button](https://api.flattr.com/button/flattr-badge-large.png "Flattr This!")]
+(https://flattr.com/submit/auto?user_id=echoes&url=https://forge.puppetlabs.com/echoes/gitolite&title=Puppet%20module%20to%20wrap%20some%20defined%20resource%20types%20that%20doesn't%20appear%20on%20Puppet's%20ENC%20Foreman.&lang=en_GB&category=software "Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman")
 
 #### Table of Contents
 
 1. [Overview](#overview)
-2. [Limitations - OS compatibility, etc.](#limitations)
-3. [Development - Guide for contributing to the module](#development)
-4. [Contributors](#contributors)
+2. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
+3. [Limitations - OS compatibility, etc.](#limitations)
+4. [Development - Guide for contributing to the module](#development)
+5. [Contributors](#contributors)
 
 ## Overview
 
 Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman
+
+## Reference
+
+### Classes
+
+#### Public Classes
+
+* wrappers::account: Wrapper for ```::account``` from [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
+* wrappers::apache::vhost: Wrapper for ```::apache::vhost``` from [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
+* wrappers::firewall: Wrapper for ```::firewall``` from [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
+* wrappers::haproxy::backend: Wrapper for ```::haproxy::backend``` from [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
+* wrappers::haproxy::frontend: Wrapper for ```::haproxy::frontend``` from [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
+* wrappers::mysql::db: Wrapper for ```::mysql::db``` from [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
+* wrappers::package: Wrapper for ```::package```
+* wrappers::postgresql::server::db: Wrapper for ```::postgresql::server::db``` from [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
+* wrappers::postgresql::server::role Wrapper for ```::postgresql::server::role``` from [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
+* wrappers::systemenv::var: Wrapper for ```::systemenv::var``` from [nvpuppet-systemenv](https://forge.puppetlabs.com/nvpuppet/systemenv)
+* wrappers::tomcat::instance: Wrapper for ```::tomcat::instance``` from [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
+* wrappers::tomcat::service: Wrapper for ```::tomcat::service``` from [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
 
 ## Limitations
 
