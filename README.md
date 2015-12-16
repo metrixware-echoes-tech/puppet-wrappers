@@ -1,7 +1,5 @@
 # wrappers
 
-[![Build Status](https://travis-ci.org/echoes-tech/puppet-wrappers.svg?branch=master)]
-(https://travis-ci.org/echoes-tech/puppet-wrappers)
 [![Flattr Button](https://api.flattr.com/button/flattr-badge-large.png "Flattr This!")]
 (https://flattr.com/submit/auto?user_id=echoes&url=https://forge.puppetlabs.com/echoes/gitolite&title=Puppet%20module%20to%20wrap%20some%20defined%20resource%20types%20that%20doesn't%20appear%20on%20Puppet's%20ENC%20Foreman.&lang=en_GB&category=software "Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman")
 
