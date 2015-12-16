@@ -24,6 +24,7 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 #### Public Classes
 
 * wrappers::account: Wrapper for ```::account``` from [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
+* wrappers::accounts::user: Wrapper for ```::accounts:user``` from [puppetlabs-accounts](https://forge.puppetlabs.com/puppetlabs/accounts)
 * wrappers::apache::vhost: Wrapper for ```::apache::vhost``` from [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
 * wrappers::firewall: Wrapper for ```::firewall``` from [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
 * wrappers::haproxy::backend: Wrapper for ```::haproxy::backend``` from [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
