@@ -1,3 +1,8 @@
+## 2016-01-08 - Release 0.3.0
+### Summary
+
+Adds wrappers for [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
+
 ## 2015-12-16 - Release 0.2.0
 ### Summary
 
