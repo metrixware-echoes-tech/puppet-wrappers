@@ -21,24 +21,59 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 #### Public Classes
 
-* wrappers::account:                 Wrapper for ```::account``` from [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
-* wrappers::accounts::user:          Wrapper for ```::accounts:user``` from [puppetlabs-accounts](https://forge.puppetlabs.com/puppetlabs/accounts)
-* wrappers::apache::vhost:           Wrapper for ```::apache::vhost``` from [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
-* wrappers::firewall:                Wrapper for ```::firewall``` from [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
-* wrappers::haproxy::backend:        Wrapper for ```::haproxy::backend``` from [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
-* wrappers::haproxy::frontend:       Wrapper for ```::haproxy::frontend``` from [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
-* wrappers::mysql::db:               Wrapper for ```::mysql::db``` from [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
-* wrappers::package:                 Wrapper for ```::package```
-* wrappers::postgresql::server::db:  Wrapper for ```::postgresql::server::db``` from [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
-* wrappers::postgresql::server::role Wrapper for ```::postgresql::server::role``` from [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
-* wrappers::python::gunicorn         Wrapper for ```::python::gunicorn``` from [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
-* wrappers::python::pip              Wrapper for ```::python::pip``` from [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
-* wrappers::python::pyvenv           Wrapper for ```::python::pyvenv``` from [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
-* wrappers::python::requirements     Wrapper for ```::python::requirements``` from [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
-* wrappers::python::virtualenv       Wrapper for ```::python::virtualenv``` from [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
-* wrappers::systemenv::var:          Wrapper for ```::systemenv::var``` from [nvpuppet-systemenv](https://forge.puppetlabs.com/nvpuppet/systemenv)
-* wrappers::tomcat::instance:        Wrapper for ```::tomcat::instance``` from [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
-* wrappers::tomcat::service:         Wrapper for ```::tomcat::service``` from [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
+* ```wrappers::package```: Wrapper for ```::package```
+
+##### Wrappers for [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
+
+* ```wrappers::account```: Wrapper for ```::account```
+
+##### Wrappers for [puppetlabs-accounts](https://forge.puppetlabs.com/puppetlabs/accounts)
+
+* ```wrappers::accounts::user```: Wrapper for ```::accounts:user```
+
+##### Wrappers for [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
+
+* ```wrappers::apache::vhost```: Wrapper for ```::apache::vhost```
+
+##### Wrappers for [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
+
+* ```wrappers::firewall```: Wrapper for ```::firewall```
+
+##### Wrappers for [puppetlabs-haproxy](https://forge.puppetlabs.com/puppetlabs/haproxy)
+
+* ```wrappers::haproxy::backend```:  Wrapper for ```::haproxy::backend```
+* ```wrappers::haproxy::frontend```: Wrapper for ```::haproxy::frontend```
+
+##### Wrappers for [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
+
+* ```wrappers::mysql::db```: Wrapper for ```::mysql::db```
+
+##### Wrappers for [puppetlabs-postgresql](https://forge.puppetlabs.com/puppetlabs/postgresql)
+
+* ```wrappers::postgresql::server::db```:   Wrapper for ```::postgresql::server::db```
+* ```wrappers::postgresql::server::role```: Wrapper for ```::postgresql::server::role```
+
+##### Wrappers for [camptocamp-openssl](https://forge.puppetlabs.com/camptocamp/openssl)
+
+* ```wrappers::openssl::certificate::x509```: Wrapper for ```::openssl::certificate::x509```
+* ```wrappers::openssl::export::pkcs12```:    Wrapper for ```::openssl::export::pkcs12```
+
+##### Wrappers for [stankevich-python](https://forge.puppetlabs.com/stankevich/python)
+
+* ```wrappers::python::gunicorn```:     Wrapper for ```::python::gunicorn```
+* ```wrappers::python::pip```:          Wrapper for ```::python::pip```
+* ```wrappers::python::pyvenv```:       Wrapper for ```::python::pyvenv```
+* ```wrappers::python::requirements```: Wrapper for ```::python::requirements```
+* ```wrappers::python::virtualenv```:   Wrapper for ```::python::virtualenv```
+
+##### Wrappers for [nvpuppet-systemenv](https://forge.puppetlabs.com/nvpuppet/systemenv)
+
+* ```wrappers::systemenv::var```: Wrapper for ```::systemenv::var```
+
+##### Wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
+
+* ```wrappers::tomcat::instance```: Wrapper for ```::tomcat::instance```
+* ```wrappers::tomcat::service```:  Wrapper for ```::tomcat::service```
 
 ## Limitations
 

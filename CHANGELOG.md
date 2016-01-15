@@ -1,3 +1,12 @@
+## 2016-01-15 - Release 0.4.0
+### Summary
+
+This release adds wrappers for [camptocamp-openssl](https://forge.puppetlabs.com/camptocamp/openssl)
+
+#### Features
+- Added wrappers for [camptocamp-openssl](https://forge.puppetlabs.com/camptocamp/openssl)
+
+
 ## 2016-01-08 - Release 0.3.1
 ### Summary
 
