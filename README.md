@@ -35,6 +35,11 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 * ```wrappers::apache::vhost```: Wrapper for ```::apache::vhost```
 
+##### Wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
+
+* ```wrappers::concat```:           Wrapper for ```::concat```
+* ```wrappers::concat::fragment```: Wrapper for ```::concat::fragment```
+
 ##### Wrappers for [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
 
 * ```wrappers::firewall```: Wrapper for ```::firewall```

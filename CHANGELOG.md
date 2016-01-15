@@ -1,3 +1,11 @@
+## 2016-01-15 - Release 0.5.0
+### Summary
+
+This release adds wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
+
+#### Features
+- Added wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
+
 ## 2016-01-15 - Release 0.4.0
 ### Summary
 
@@ -5,7 +13,6 @@ This release adds wrappers for [camptocamp-openssl](https://forge.puppetlabs.com
 
 #### Features
 - Added wrappers for [camptocamp-openssl](https://forge.puppetlabs.com/camptocamp/openssl)
-
 
 ## 2016-01-08 - Release 0.3.1
 ### Summary
