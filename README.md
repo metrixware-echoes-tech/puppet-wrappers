@@ -21,6 +21,8 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 #### Public Classes
 
+* ```wrappers::exec```: Wrapper for ```::exec```
+* ```wrappers::file```: Wrapper for ```::file```
 * ```wrappers::package```: Wrapper for ```::package```
 
 ##### Wrappers for [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
@@ -33,6 +35,7 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 ##### Wrappers for [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
 
+* ```wrappers::apache::listen```: Wrapper for ```::apache::listen```
 * ```wrappers::apache::vhost```: Wrapper for ```::apache::vhost```
 
 ##### Wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
@@ -70,6 +73,18 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * ```wrappers::python::pyvenv```:       Wrapper for ```::python::pyvenv```
 * ```wrappers::python::requirements```: Wrapper for ```::python::requirements```
 * ```wrappers::python::virtualenv```:   Wrapper for ```::python::virtualenv```
+
+##### Wrappers for [johanek-redmine](https://forge.puppetlabs.com/johanek/redmine)
+
+* ```wrappers::redmine::plugin```: Wrapper for ```::redmine::plugin```
+
+##### Wrappers for [maestrodev-ssh_keygen](https://forge.puppetlabs.com/maestrodev/ssh_keygen)
+
+* ```wrappers::ssh_keygen```: Wrapper for ```::ssh_keygen```
+
+##### Wrappers for [example42-sudo](https://forge.puppetlabs.com/example42/sudo)
+
+* ```wrappers::sudo::directive```: Wrapper for ```::sudo::directive```
 
 ##### Wrappers for [nvpuppet-systemenv](https://forge.puppetlabs.com/nvpuppet/systemenv)
 
