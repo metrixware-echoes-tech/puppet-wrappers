@@ -1,5 +1,6 @@
 class wrappers::python::requirements (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('python::requirements', $resources)
+  create_resources('python::requirements', $resources, $defaults)
 }

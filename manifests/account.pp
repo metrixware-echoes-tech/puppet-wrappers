@@ -1,5 +1,6 @@
 class wrappers::account (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('account', $resources)
+  create_resources('account', $resources, $defaults)
 }

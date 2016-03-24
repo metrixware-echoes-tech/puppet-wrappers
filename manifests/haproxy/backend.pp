@@ -1,5 +1,6 @@
 class wrappers::haproxy::backend (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('haproxy::backend', $resources)
+  create_resources('haproxy::backend', $resources, $defaults)
 }

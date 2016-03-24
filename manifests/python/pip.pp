@@ -1,5 +1,6 @@
 class wrappers::python::pip (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('python::pip', $resources)
+  create_resources('python::pip', $resources, $defaults)
 }

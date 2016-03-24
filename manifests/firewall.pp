@@ -1,5 +1,6 @@
 class wrappers::firewall (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('firewall', $resources)
+  create_resources('firewall', $resources, $defaults)
 }

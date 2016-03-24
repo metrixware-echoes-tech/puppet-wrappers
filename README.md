@@ -1,7 +1,7 @@
 # wrappers
 
 [![Flattr Button](https://api.flattr.com/button/flattr-badge-large.png "Flattr This!")]
-(https://flattr.com/submit/auto?user_id=echoes&url=https://forge.puppetlabs.com/echoes/gitolite&title=Puppet%20module%20to%20wrap%20some%20defined%20resource%20types%20that%20doesn't%20appear%20on%20Puppet's%20ENC%20Foreman.&lang=en_GB&category=software "Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman")
+(https://flattr.com/submit/auto?user_id=echoes&url=https://forge.puppetlabs.com/echoes/wrappers&title=Puppet%20module%20to%20wrap%20some%20defined%20resource%20types%20that%20doesn't%20appear%20on%20Puppet's%20ENC%20Foreman.&lang=en_GB&category=software "Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman")
 
 #### Table of Contents
 
@@ -37,6 +37,11 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 * ```wrappers::apache::listen```: Wrapper for ```::apache::listen```
 * ```wrappers::apache::vhost```: Wrapper for ```::apache::vhost```
+
+##### Wrappers for [puppetlabs-apt](https://forge.puppetlabs.com/puppetlabs/apt)
+
+* ```wrappers::apt::source```: Wrapper for ```::apt::source```
+* ```wrappers::apt::pin```:    Wrapper for ```::apt::pin```
 
 ##### Wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
 
@@ -77,6 +82,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 ##### Wrappers for [johanek-redmine](https://forge.puppetlabs.com/johanek/redmine)
 
 * ```wrappers::redmine::plugin```: Wrapper for ```::redmine::plugin```
+
+##### Wrappers for [razorsedge-snmp](https://forge.puppetlabs.com/razorsedge/snmp)
+
+* ```wrappers::snmp::snmpv3_user```: Wrapper for ```::snmp::snmpv3_user```
 
 ##### Wrappers for [maestrodev-ssh_keygen](https://forge.puppetlabs.com/maestrodev/ssh_keygen)
 

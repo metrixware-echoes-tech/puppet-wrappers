@@ -1,5 +1,6 @@
 class wrappers::postgresql::server::db (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('postgresql::server::db', $resources)
+  create_resources('postgresql::server::db', $resources, $defaults)
 }

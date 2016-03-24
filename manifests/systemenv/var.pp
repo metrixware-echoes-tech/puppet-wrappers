@@ -1,11 +1,10 @@
 class wrappers::systemenv::var (
-  $resources = {}
-) {
-  include systemenv
-
+  $resources = {},
   $defaults = {
     ensure => present
-  }
+  },
+) {
+  include systemenv
 
   create_resources('systemenv::var', $resources, $defaults)
 }

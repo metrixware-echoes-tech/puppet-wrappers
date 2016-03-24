@@ -1,5 +1,6 @@
 class wrappers::python::virtualenv (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('python::virtualenv', $resources)
+  create_resources('python::virtualenv', $resources, $defaults)
 }

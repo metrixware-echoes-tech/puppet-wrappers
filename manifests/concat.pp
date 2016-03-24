@@ -1,5 +1,6 @@
 class wrappers::concat (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('concat', $resources)
+  create_resources('concat', $resources, $defaults)
 }

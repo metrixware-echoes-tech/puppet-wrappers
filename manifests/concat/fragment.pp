@@ -1,5 +1,6 @@
 class wrappers::concat::fragment (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('concat::fragment', $resources)
+  create_resources('concat::fragment', $resources, $defaults)
 }

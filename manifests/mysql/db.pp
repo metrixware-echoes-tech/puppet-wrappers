@@ -1,5 +1,6 @@
 class wrappers::mysql::db (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('mysql::db', $resources)
+  create_resources('mysql::db', $resources, $defaults)
 }

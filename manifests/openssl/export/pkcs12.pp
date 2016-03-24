@@ -1,5 +1,6 @@
 class wrappers::openssl::export::pkcs12 (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('openssl::export::pkcs12', $resources)
+  create_resources('openssl::export::pkcs12', $resources, $defaults)
 }

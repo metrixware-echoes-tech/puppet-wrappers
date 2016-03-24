@@ -1,5 +1,6 @@
 class wrappers::tomcat::instance (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('tomcat::instance', $resources)
+  create_resources('tomcat::instance', $resources, $defaults)
 }

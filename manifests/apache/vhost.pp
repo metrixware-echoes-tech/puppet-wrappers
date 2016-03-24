@@ -1,5 +1,6 @@
 class wrappers::apache::vhost (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('apache::vhost', $resources)
+  create_resources('apache::vhost', $resources, $defaults)
 }

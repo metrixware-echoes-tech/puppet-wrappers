@@ -1,5 +1,6 @@
 class wrappers::python::gunicorn (
-  $resources = {}
+  $resources = {},
+  $defaults = {},
 ) {
-  create_resources('python::gunicorn', $resources)
+  create_resources('python::gunicorn', $resources, $defaults)
 }
