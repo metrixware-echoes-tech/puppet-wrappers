@@ -1,13 +1,15 @@
-## 2016-02-24 - Release 0.6.0
+## 2016-03-24 - Release 0.6.0
 ### Summary
 
-This release adds wrappers for `exec`, `file`, [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache), [johanek-redmine](https://forge.puppetlabs.com/johanek/redmine), [maestrodev-ssh_keygen](https://forge.puppetlabs.com/maestrodev/ssh_keygen), [example42-sudo](https://forge.puppetlabs.com/example42/sudo)
+This release adds wrappers for `exec`, `file`, [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache), [puppetlabs-apt](https://forge.puppetlabs.com/puppetlabs/apt), [johanek-redmine](https://forge.puppetlabs.com/johanek/redmine), [razorsedge-snmp](https://forge.puppetlabs.com/razorsedge/snmp), [maestrodev-ssh_keygen](https://forge.puppetlabs.com/maestrodev/ssh_keygen), [example42-sudo](https://forge.puppetlabs.com/example42/sudo)
 
 #### Features
 - Added wrappers for `exec`
 - Added wrappers for `file`
 - Added wrappers for [puppetlabs-apache](https://forge.puppetlabs.com/puppetlabs/apache)
+- Added wrappers for [puppetlabs-apt](https://forge.puppetlabs.com/puppetlabs/apt)
 - Added wrappers for [johanek-redmine](https://forge.puppetlabs.com/johanek/redmine)
+- Added wrappers for [razorsedge-snmp](https://forge.puppetlabs.com/razorsedge/snmp)
 - Added wrappers for [maestrodev-ssh_keygen](https://forge.puppetlabs.com/maestrodev/ssh_keygen)
 - Added wrappers for [example42-sudo](https://forge.puppetlabs.com/example42/sudo)
 
