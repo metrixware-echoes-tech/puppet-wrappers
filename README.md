@@ -103,6 +103,16 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 * ```wrappers::tomcat::instance```: Wrapper for ```::tomcat::instance```
 * ```wrappers::tomcat::service```:  Wrapper for ```::tomcat::service```
+* ```wrappers::tomcat::war```:      Wrapper for ```::tomcat::war```
+
+##### Wrappers for [rtyler-jenkins](https://forge.puppetlabs.com/rtyler/jenkins)
+
+* ```wrappers::jenkins::job```:     Wrapper for ```::jenkins::job```
+* ```wrappers::jenkins::plugin```:  Wrapper for ```::jenkins::plugin```
+
+##### Wrappers for [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
+
+* ```wrappers::jasig::service```: Wrapper for ```::jasig::service```
 
 ## Limitations
 

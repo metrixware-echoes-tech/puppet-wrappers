@@ -1,3 +1,8 @@
+## 2016-05-26 - Release 0.7.0
+### Summary
+
+This release adds wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat), [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins), [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
+
 ## 2016-03-24 - Release 0.6.0
 ### Summary
 
