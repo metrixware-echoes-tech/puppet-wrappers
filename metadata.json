@@ -1,6 +1,6 @@
 {
   "name": "echoes-wrappers",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "author": "Echoes Technologies",
   "summary": "Puppet module to wrap some defined resource types that doesn't appear on Puppet's ENC Foreman",
   "license": "Apache-2.0",

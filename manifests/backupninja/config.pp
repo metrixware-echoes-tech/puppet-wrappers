@@ -1,4 +1,4 @@
-class backupninja::config (
+class wrappers::backupninja::config (
   $resources = {},
   $defaults = {},
 ) {

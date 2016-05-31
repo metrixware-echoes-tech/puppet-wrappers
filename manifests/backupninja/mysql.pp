@@ -1,4 +1,4 @@
-class backupninja::mysql (
+class wrappers::backupninja::mysql (
   $resources = {},
   $defaults = {},
 ) {

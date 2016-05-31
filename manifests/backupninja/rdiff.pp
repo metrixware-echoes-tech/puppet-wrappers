@@ -1,4 +1,4 @@
-class backupninja::rdiff (
+class wrappers::backupninja::rdiff (
   $resources = {},
   $defaults = {},
 ) {

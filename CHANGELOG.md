@@ -1,6 +1,14 @@
 ## 2016-05-31 - Release 0.7.0
 ### Summary
 
+This release fixes bad class names of backupninja wrappers.
+
+####Bugfixes
+- Bad class names use for backupninja wrappers
+
+## 2016-05-31 - Release 0.7.0
+### Summary
+
 This release adds wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat), [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins), [echoes-jasig](https://github.com/echoes-tech/puppet-jasig) and [gnubilafrance-backupninja](https://forge.puppetlabs.com/gnubilafrance/backupninja)
 
 #### Features
