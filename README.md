@@ -43,6 +43,12 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * ```wrappers::apt::source```: Wrapper for ```::apt::source```
 * ```wrappers::apt::pin```:    Wrapper for ```::apt::pin```
 
+##### Wrappers for [gnubilafrance-backupninja](https://forge.puppetlabs.com/gnubilafrance/backupninja)
+
+* ```wrappers::backupninja::config```: Wrapper for ```::backupninja::config```
+* ```wrappers::backupninja::mysql```:  Wrapper for ```::backupninja::mysql```
+* ```wrappers::backupninja::rdiff```:  Wrapper for ```::backupninja::rdiff```
+
 ##### Wrappers for [puppetlabs-concat](https://forge.puppetlabs.com/puppetlabs/concat)
 
 * ```wrappers::concat```:           Wrapper for ```::concat```
@@ -56,6 +62,15 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 * ```wrappers::haproxy::backend```:  Wrapper for ```::haproxy::backend```
 * ```wrappers::haproxy::frontend```: Wrapper for ```::haproxy::frontend```
+
+##### Wrappers for [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
+
+* ```wrappers::jasig::service```: Wrapper for ```::jasig::service```
+
+##### Wrappers for [rtyler-jenkins](https://forge.puppetlabs.com/rtyler/jenkins)
+
+* ```wrappers::jenkins::job```:    Wrapper for ```::jenkins::job```
+* ```wrappers::jenkins::plugin```: Wrapper for ```::jenkins::plugin```
 
 ##### Wrappers for [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
 
@@ -104,15 +119,6 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * ```wrappers::tomcat::instance```: Wrapper for ```::tomcat::instance```
 * ```wrappers::tomcat::service```:  Wrapper for ```::tomcat::service```
 * ```wrappers::tomcat::war```:      Wrapper for ```::tomcat::war```
-
-##### Wrappers for [rtyler-jenkins](https://forge.puppetlabs.com/rtyler/jenkins)
-
-* ```wrappers::jenkins::job```:     Wrapper for ```::jenkins::job```
-* ```wrappers::jenkins::plugin```:  Wrapper for ```::jenkins::plugin```
-
-##### Wrappers for [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
-
-* ```wrappers::jasig::service```: Wrapper for ```::jasig::service```
 
 ## Limitations
 

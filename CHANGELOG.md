@@ -1,7 +1,13 @@
-## 2016-05-26 - Release 0.7.0
+## 2016-05-31 - Release 0.7.0
 ### Summary
 
-This release adds wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat), [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins), [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
+This release adds wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat), [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins), [echoes-jasig](https://github.com/echoes-tech/puppet-jasig) and [gnubilafrance-backupninja](https://forge.puppetlabs.com/gnubilafrance/backupninja)
+
+#### Features
+- Added wrappers for [gnubilafrance-backupninja](https://forge.puppetlabs.com/gnubilafrance/backupninja)
+- Added wrappers for [echoes-jasig](https://github.com/echoes-tech/puppet-jasig)
+- Added wrappers for [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins)
+- Added wrappers for [puppetlabs-tomcat](https://forge.puppetlabs.com/puppetlabs/tomcat)
 
 ## 2016-03-24 - Release 0.6.0
 ### Summary
