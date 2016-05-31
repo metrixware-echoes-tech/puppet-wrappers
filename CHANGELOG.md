@@ -1,9 +1,17 @@
-## 2016-05-31 - Release 0.7.0
+## 2016-05-31 - Release 0.7.2
+### Summary
+
+This release fixes bad definition names in backupninja wrappers.
+
+#### Bugfixes
+- Bad definition names use in backupninja wrappers
+
+## 2016-05-31 - Release 0.7.1
 ### Summary
 
 This release fixes bad class names of backupninja wrappers.
 
-####Bugfixes
+#### Bugfixes
 - Bad class names use for backupninja wrappers
 
 ## 2016-05-31 - Release 0.7.0
