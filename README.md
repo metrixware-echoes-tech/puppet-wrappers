@@ -121,6 +121,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * ```wrappers::tomcat::service```:  Wrapper for ```::tomcat::service```
 * ```wrappers::tomcat::war```:      Wrapper for ```::tomcat::war```
 
+##### Wrappers for [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+
+* ```wrappers::nexus_artifact::artifact```: Wrapper for ```::nexus_artifact::artifact```
+
 ## Limitations
 
 RedHat and Debian family OSes are officially supported. Tested and built on Debian and CentOS.

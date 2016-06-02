@@ -1,3 +1,11 @@
+## 2016-06-03 - Release 0.9.0
+### Summary
+
+This release adds wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+
+### Features
+- Added wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+
 ## 2016-06-02 - Release 0.8.0
 ### Summary
 
