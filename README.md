@@ -21,9 +21,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 #### Public Classes
 
-* ```wrappers::exec```: Wrapper for ```::exec```
-* ```wrappers::file```: Wrapper for ```::file```
-* ```wrappers::package```: Wrapper for ```::package```
+* ```wrappers::exec```:      Wrapper for ```::exec```
+* ```wrappers::file```:      Wrapper for ```::file```
+* ```wrappers::file_line```: Wrapper for ```::file_line```
+* ```wrappers::package```:   Wrapper for ```::package```
 
 ##### Wrappers for [torrancew-account](https://forge.puppetlabs.com/torrancew/account)
 

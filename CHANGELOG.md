@@ -1,3 +1,11 @@
+## 2016-06-02 - Release 0.8.0
+### Summary
+
+This release adds wrappers for `file_line` from  [puppetlabs-stdlib](https://forge.puppetlabs.com/puppetlabs/stdlib)
+
+#### Features
+- Added wrappers for `file_line` from  [puppetlabs-stdlib](https://forge.puppetlabs.com/puppetlabs/stdlib)
+
 ## 2016-05-31 - Release 0.7.2
 ### Summary
 
