@@ -129,9 +129,9 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 RedHat and Debian family OSes are officially supported. Tested and built on Debian and CentOS.
 
-##Development
+## Development
 
-[Echoes Technologies](https://www.echoes-tech.com) modules on the Puppet Forge are open projects, and community contributions are essential for keeping them great.
+[Echoes Technologies](https://echoes.fr) modules on the Puppet Forge are open projects, and community contributions are essential for keeping them great.
 
 [Fork this module on GitHub](https://github.com/echoes-tech/puppet-wrappers/fork)
 
