@@ -1,10 +1,15 @@
-## 2016-06-03 - Release 0.9.0
+## 2016-09-01 - Release 0.9.0
 ### Summary
 
-This release adds wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+This release adds wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact) and fixes some typo.
 
 ### Features
 - Added wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+
+#### Bugfixes
+- Typo
+- Bad Echoes website URL
+- Bad function name use in `apt::pin` wrappers
 
 ## 2016-06-02 - Release 0.8.0
 ### Summary
