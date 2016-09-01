@@ -8,7 +8,8 @@
   "project_page": "https://github.com/echoes-tech/puppet-wrappers",
   "issues_url": "https://github.com/echoes-tech/puppet-wrappers/issues",
   "tags": [
-    "foreman"
+    "foreman",
+    "ENC"
   ],
   "operatingsystem_support": [
     {
@@ -59,7 +60,8 @@
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
         "6",
-        "7"
+        "7",
+        "8"
       ]
     },
     {
@@ -103,7 +105,7 @@
   "requirements": [
     {
       "name": "pe",
-      "version_requirement": "3.x"
+      "version_requirement": ">= 3.2.0 < 5.0.0"
     },
     {
       "name": "puppet",
