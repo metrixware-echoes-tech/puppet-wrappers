@@ -55,6 +55,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * ```wrappers::concat```:           Wrapper for ```::concat```
 * ```wrappers::concat::fragment```: Wrapper for ```::concat::fragment```
 
+##### Wrappers for [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch)
+
+* ```wrappers::elasticsearch::instance```: Wrapper for ```::elasticsearch::instance```
+
 ##### Wrappers for [puppetlabs-firewall](https://forge.puppetlabs.com/puppetlabs/firewall)
 
 * ```wrappers::firewall```: Wrapper for ```::firewall```

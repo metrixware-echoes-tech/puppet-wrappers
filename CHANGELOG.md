@@ -1,10 +1,12 @@
 ## 2016-09-01 - Release 0.9.0
 ### Summary
 
-This release adds wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact) and fixes some typo.
+This release adds wrappers for [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact) and [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch).
+It fixes some typo.
 
 ### Features
-- Added wrappers for `artifact` from  [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+- Added wrappers for `artifact` from [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
+- Added wrappers for `instance` from [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch)
 
 #### Bugfixes
 - Typo
