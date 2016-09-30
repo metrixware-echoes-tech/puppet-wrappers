@@ -1,12 +1,13 @@
-## 2016-09-01 - Release 0.9.0
+## 2016-09-30 - Release 0.9.0
 ### Summary
 
-This release adds wrappers for [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact) and [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch).
+This release adds wrappers for [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact), [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch) and [maestrodev-wget](https://forge.puppet.com/maestrodev/wget).
 It fixes some typo.
 
-### Features
+#### Features
 - Added wrappers for `artifact` from [echoes-nexus-artifact](https://github.com/echoes-tech/puppet-nexus-artifact)
 - Added wrappers for `instance` from [elasticsearch-elasticsearch](https://forge.puppet.com/elasticsearch/elasticsearch)
+- Added wrappers for `fetch` from [maestrodev-wget](https://forge.puppet.com/maestrodev/wget)
 
 #### Bugfixes
 - Typo
