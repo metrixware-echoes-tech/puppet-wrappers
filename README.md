@@ -74,8 +74,11 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 
 ##### Wrappers for [rtyler-jenkins](https://forge.puppetlabs.com/rtyler/jenkins)
 
-* `wrappers::jenkins::job`:    Wrapper for `::jenkins::job`
-* `wrappers::jenkins::plugin`: Wrapper for `::jenkins::plugin`
+* `wrappers::jenkins::cli::exec`:  Wrapper for `::jenkins::cli::exec`
+* `wrappers::jenkins::credential`: Wrapper for `::jenkins::credential`
+* `wrappers::jenkins::job`:        Wrapper for `::jenkins::job`
+* `wrappers::jenkins::plugin`:     Wrapper for `::jenkins::plugin`
+* `wrappers::jenkins::user`:       Wrapper for `::jenkins::user`
 
 ##### Wrappers for [puppetlabs-mysql](https://forge.puppetlabs.com/puppetlabs/mysql)
 

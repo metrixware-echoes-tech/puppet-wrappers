@@ -1,3 +1,11 @@
+## 2016-10-14 - Release 0.10.0
+### Summary
+
+This release adds wrappers for [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins)
+
+#### Features
+- Added wrappers for `cli::exec`, `credential` and `user` from [rtyler-jenkins](https://forge.puppet.com/rtyler/jenkins)
+
 ## 2016-09-30 - Release 0.9.0
 ### Summary
 
