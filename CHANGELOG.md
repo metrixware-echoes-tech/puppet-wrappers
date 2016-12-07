@@ -1,3 +1,12 @@
+## 2016-12-07 - Release 0.11.0
+### Summary
+
+This release adds wrappers for [puppet-archive](https://forge.puppet.com/puppet/archive) and [puppetlabs-vcsrepo](https://forge.puppetlabs.com/puppetlabs/vcsrepo)
+
+#### Features
+- Added wrapper for `archive` from [puppet-archive](https://forge.puppet.com/puppet/archive)
+- Added wrapper for `vcsrepo` from [puppetlabs-vcsrepo](https://forge.puppetlabs.com/puppetlabs/vcsrepo)
+
 ## 2016-10-14 - Release 0.10.0
 ### Summary
 

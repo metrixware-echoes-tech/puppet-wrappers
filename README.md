@@ -44,6 +44,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * `wrappers::apt::source`: Wrapper for `::apt::source`
 * `wrappers::apt::pin`:    Wrapper for `::apt::pin`
 
+##### Wrappers for [puppet-archive](https://forge.puppet.com/puppet/archive)
+
+* `wrappers::archive`: Wrapper for `::archive`
+
 ##### Wrappers for [gnubilafrance-backupninja](https://forge.puppetlabs.com/gnubilafrance/backupninja)
 
 * `wrappers::backupninja::config`: Wrapper for `::backupninja::config`
@@ -127,6 +131,10 @@ Puppet module to wrap some defined resource types that doesn't appear on Puppet'
 * `wrappers::tomcat::instance`: Wrapper for `::tomcat::instance`
 * `wrappers::tomcat::service`:  Wrapper for `::tomcat::service`
 * `wrappers::tomcat::war`:      Wrapper for `::tomcat::war`
+
+##### Wrappers for [puppetlabs-vcsrepo](https://forge.puppetlabs.com/puppetlabs/vcsrepo)
+
+* `wrappers::vcsrepo`: Wrapper for `::vcsrepo`
 
 ##### Wrappers for [maestrodev-wget](https://forge.puppet.com/maestrodev/wget)
 
